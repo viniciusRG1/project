@@ -7,3 +7,5 @@ const Message = ({msg, type}) => {
         </div>
     )
 }
+
+export default Message;

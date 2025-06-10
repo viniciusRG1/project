@@ -7,7 +7,7 @@ import {useState,useEffect} from 'react'
 import { register, reset } from '../../slices/authSlice'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { Message} from '../../components/Massage'
+import Message from '../../components/Massage'
 
 const Register = () => {
 
@@ -57,4 +57,4 @@ const Register = () => {
   )
 }
 
-export default Register
+export default Register;
